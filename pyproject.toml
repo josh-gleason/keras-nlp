@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "keras_nlp"
+version = "0.2.4"
+description = "Library for NLP processing for Keras models."
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+  { name="Aris Fergadis", email="aris.fergadis@protonmail.com" },
+]
+license = { text = "Apache-2.0" }
+dependencies = [
+  "scikit-learn>=1.0",
+  "numpy>=1.23",
+  "tensorflow>=2.12",
+  "joblib>=1.2",
+  "jsonpickle>=3.0",
+]
