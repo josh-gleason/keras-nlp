@@ -1,6 +1,8 @@
 # Keras NLP
 This is a library with useful functionality to prepare text for Keras models.
 
+Updated for compatibility with tensorflow 2.13.1
+
 # Installation
 Option 1: Clone the repository and install from the local directory.
 ```bash
