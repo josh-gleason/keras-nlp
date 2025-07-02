@@ -2,7 +2,7 @@ import abc
 import struct
 import logging
 import numpy as np
-from keras.utils.generic_utils import Progbar
+from tensorflow.keras.utils import Progbar
 from keras.layers import Embedding
 
 
